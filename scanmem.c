@@ -55,7 +55,7 @@ globals_t globals = {
         0,                      /* debug */
         0,                      /* backend */
         ANYINTEGER,             /* scan_data_type */
-        REGION_HEAP_STACK_EXECUTABLE_BSS, /* region_detail_level */ 
+        REGION_ALL, /* region_detail_level */ 
         0,                      /* detect_reverse_change */
         1,                      /* dump_with_ascii */
     }
